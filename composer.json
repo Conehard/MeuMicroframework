@@ -1,0 +1,23 @@
+{
+    "name": "conehard/meumicroframework",
+    "authors": [
+        {
+            "name": "Andre Assunção",
+            "email": "andre@egend.com.br"
+        }
+    ],
+    "autoload": {
+        "classmap": ["app/Database/Migration","app/Repository","app/Service"],
+        "psr-4": {
+            "MeuMicroframework\\": "app/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "zircote/swagger-php": "^4.3",
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
